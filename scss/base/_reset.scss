@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+  background-color: whitesmoke;
+  margin: 0;
+  font-family: $font-family;
+  background: radial-gradient(circle, rgb(139, 119, 0), black, rgb(207, 182, 40));
+  background-repeat: no-repeat;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
