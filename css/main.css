@@ -396,6 +396,28 @@ textarea::placeholder {
     height: auto;
   }
 }
+
+@media (max-width: 680px) {
+  body {
+        font-size: 14px;
+    }
+    .servicios-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        & h2 {
+            font-size: 30px;
+        }
+        & .cards {
+            width: 85%;
+            margin: 0;
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}
+
 @media (max-width: 480px) {
   body {
         font-size: 14px;
